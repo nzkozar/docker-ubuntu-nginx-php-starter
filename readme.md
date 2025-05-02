@@ -13,3 +13,6 @@ After running your site will be served at http://localhost:8080
 
 ## Healthcheck
 `docker inspect --format='{{json .State.Health}}' <container_id>`
+
+## Dockerhub image
+https://hub.docker.com/r/nzkozar/ubuntu-nginx-php-starter
